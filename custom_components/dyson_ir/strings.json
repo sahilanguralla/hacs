@@ -1,0 +1,48 @@
+{
+    "config": {
+      "step": {
+        "user": {
+          "title": "Dyson IR Control Setup",
+          "description": "Configure your Dyson fan/heater control via IR blaster"
+        },
+        "device": {
+          "title": "Device Configuration",
+          "data": {
+            "name": "Device Name",
+            "device_type": "Device Type",
+            "ir_blaster_entity": "IR Blaster Entity ID (e.g., broadlink.living_room)"
+          }
+        },
+        "ir_codes": {
+          "title": "IR Code Configuration",
+          "description": "Paste base64-encoded IR codes from your Broadlink device",
+          "data": {
+            "power_on": "Power On Code",
+            "power_off": "Power Off Code",
+            "speed_up": "Speed Up Code",
+            "speed_down": "Speed Down Code",
+            "oscillate_toggle": "Oscillate Toggle Code",
+            "heat_on": "Heat On Code (AM09 only)",
+            "heat_off": "Heat Off Code (AM09 only)"
+          }
+        }
+      },
+      "error": {
+        "invalid_ir_code": "Invalid IR code format"
+      },
+      "abort": {
+        "already_configured": "Device is already configured"
+      }
+    },
+    "options": {
+      "step": {
+        "init": {
+          "title": "Dyson IR Options",
+          "data": {
+            "update_interval": "Coordinator Update Interval (seconds)"
+          }
+        }
+      }
+    }
+  }
+  
