@@ -1,3 +1,4 @@
+"""Dyson IR integration."""
 import asyncio
 import logging
 from typing import Final

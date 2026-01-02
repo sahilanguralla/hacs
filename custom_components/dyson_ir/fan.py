@@ -1,3 +1,4 @@
+"""Fan entity for Dyson IR."""
 import logging
 from typing import Any
 

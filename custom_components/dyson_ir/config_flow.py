@@ -1,3 +1,4 @@
+"""Config flow for Dyson IR."""
 import logging
 from typing import Any, Dict, Optional
 

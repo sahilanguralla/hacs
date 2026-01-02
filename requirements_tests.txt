@@ -1,0 +1,8 @@
+pytest-homeassistant-custom-component
+homeassistant
+aiohttp_cors
+flake8
+pylint
+pytest
+pytest-cov
+coveralls

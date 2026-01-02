@@ -1,3 +1,4 @@
+"""Constants for Dyson IR."""
 DOMAIN = "dyson_ir"
 PLATFORMS = ["fan"]
 
